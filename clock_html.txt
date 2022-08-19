@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="clock.css">
+    <title>clock</title>
+</head>
+
+<body>
+    <h3 align="center"><u><b>SIRAT'S CLOCK</b></u></h3>
+    <section class="clock container">
+        <div class="clock_container grid">
+            <div class="clock_content grid">
+                <div class="clock_circle">
+                    <span class="clock_twelve"></span>
+                    <span class="clock_three"></span>
+                    <span class="clock_six"></span>
+                    <span class="clock_nine"></span>
+
+                    <div class="clock_rounder"></div>
+                    <div class="clock_hour" id="hr"></div>
+                    <div class="clock_minutes" id="min"></div>
+                    <div class="clock_seconds" id="sec"></div>
+                    <div class="clock_theme">
+                        <i class='bx bxs-moon' id="theme-button"></i>
+                    </div>
+                </div>
+                <div class="clock_text">
+                    <div class="clock_text-hour" id="h"></div>
+                    <div class="clock_text-minutes" id="m"></div>
+                    <div class="clock_text-sec" id="s"></div>
+                    <div class="clock_text-ampm" id="ampm"></div>
+                </div>
+            </div>
+            <a href="clock.html" target="_blank" class="clock_logo">CREATED BY SIRAT ANAND</a>
+        </div>
+
+    </section>
+
+    <script src="clock.js"></script>
+</body>
+
+</html>
